@@ -16,7 +16,7 @@ function Header() {
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <NavDropdown title="Categories" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/category/Women">Women</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/category/Computer">Computer</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/category/Kids">Kids</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/category/Men">Men</NavDropdown.Item>
               <NavDropdown.Divider />
