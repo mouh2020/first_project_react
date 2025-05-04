@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import {Route,Routes } from 'react-router-dom'
 import data from './data';
 import ProductDetails from './components/ProductDetails'
+import ProductList from './components/ProductList'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/home' element={<Home data={data} />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/category/:category' element={<ProductList data={data} />} />
         <Route path='/details/:productId' element={<ProductDetails />} />
       </Routes>
     </div>
